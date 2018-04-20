@@ -5,6 +5,8 @@ require_relative("../guest.rb")
 
 class SongTest < MiniTest::Test
 
-
+  def setup
+    @song_name = Song.new("Bohemian Rhapsody")
+  end
 
 end
