@@ -15,27 +15,22 @@ class SongTest < MiniTest::Test
   end
 
   def test_song1_name
-    assert_equal('Bohemian Rhapsody',
-      @song1_name.song_name())
+    assert_equal('Bohemian Rhapsody', @song1_name.song_name())
   end
 
   def test_song2_name
-    assert_equal('Flash',
-      @song2_name.song_name())
+    assert_equal('Flash', @song2_name.song_name())
   end
 
   def test_song3_name
-    assert_equal('Barcelona',
-      @song3_name.song_name())
+    assert_equal('Barcelona', @song3_name.song_name())
   end
 
   def test_song4_name
-    assert_equal('Somebody to Love',
-      @song4_name.song_name())
+    assert_equal('Somebody to Love', @song4_name.song_name())
   end
 
   def test_song5_name
-    assert_equal('Killer Queen',
-      @song5_name.song_name())
+    assert_equal('Killer Queen', @song5_name.song_name())
   end
 end

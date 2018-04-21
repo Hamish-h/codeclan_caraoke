@@ -8,11 +8,14 @@ require_relative('../song.rb')
 class GuestTest < MiniTest::Test
 
   def setup
-    @guest1 = Guest.new("Tom")
-    @guest2 = Guest.new("Dick")
-    @guest3 = Guest.new("Harry")
-    @guest4 = Guest.new("George")
+    @guest1_name = Guest.new('Tom')
+    @guest2_name = Guest.new('Dick')
+    @guest3_name = Guest.new('Harry')
+    @guest4_name = Guest.new('George')
   end
 
+  def test_guest1_name
+    assert_equal('Tom', @guest1_name.guest_name())
+  end
 
 end
