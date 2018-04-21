@@ -29,5 +29,4 @@ class GuestTest < MiniTest::Test
   def test_guest4_name
     assert_equal('Tom', @guest1_name.guest_name())
   end
-
 end
