@@ -19,14 +19,14 @@ class GuestTest < MiniTest::Test
   end
 
   def test_guest2_name
-    assert_equal('Tom', @guest1_name.guest_name())
+    assert_equal('Dick', @guest2_name.guest_name())
   end
 
   def test_guest3_name
-    assert_equal('Tom', @guest1_name.guest_name())
+    assert_equal('Harry', @guest3_name.guest_name())
   end
 
   def test_guest4_name
-    assert_equal('Tom', @guest1_name.guest_name())
+    assert_equal('George', @guest4_name.guest_name())
   end
 end

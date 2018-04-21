@@ -1,3 +1,4 @@
+# CodeClan Caraoke
 class Song
 
   attr_reader :song_name

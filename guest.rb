@@ -1,9 +1,9 @@
+# CodeClan Caraoke
 class Guest
 
-  attr_reader :name
+  attr_reader :guest_name
 
-  def initialize(number, price)
-    @number = number
+  def initialize(guest_name)
+    @guest_name = guest_name
   end
-
 end
